@@ -82,9 +82,9 @@ main section {
 #portrait {
     border: 3px solid #c91a1a;
     position: absolute;
-    height: 40em;
+    height: 25.2em;
     width: 30em;
-    top: 9em;
+    top: 15em;
     left: 85em;
     background-color: white;
 }
