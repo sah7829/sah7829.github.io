@@ -4,4 +4,9 @@ body
 	background: url("Images/background.png") no-repeat center center fixed;
     background-color: #112d4e;
     background-size: cover;
+    
+}
+
+.links{
+    font-family: "Fira Code";
 }
