@@ -9,4 +9,42 @@ body
 
 .links{
     font-family: "Fira Code";
+    position: relative;
+    top: 10%;
+    font-size: x-large;
+}
+
+.underline
+{
+	position: relative;
+	color: #112d4e;
+	text-decoration: none;
+}
+
+.underline:hover
+{
+	color: #112d4e;
+}
+
+.underline:before
+{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #112d4e;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.underline:hover:before
+{
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
 }
