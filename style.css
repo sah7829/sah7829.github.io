@@ -1,5 +1,7 @@
 body
 { 
 	text-align: center;
-	background-image: url("Images/background.png");
+	background: url("Images/background.png") no-repeat center center fixed;
+    background-color: #112d4e;
+    background-size: cover;
 }
