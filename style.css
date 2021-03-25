@@ -10,8 +10,11 @@ body
 .links{
     font-family: "Fira Code";
     position: relative;
-    top: 10%;
     font-size: x-large;
+}
+
+h3{
+	margin-bottom: -1%;
 }
 
 .underline
