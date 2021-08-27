@@ -48,6 +48,20 @@ marquee{
 	bottom: 0px;
 }
 
+.ad1
+{
+	position: absolute;
+	right: 40%;
+	bottom: 1%;
+}
+
+.ad2
+{
+	position: absolute;
+	left: 1%;
+	bottom: 25%;
+}
+
 .underline:before
 {
 	content: "";
