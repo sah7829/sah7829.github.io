@@ -29,6 +29,13 @@ h3{
 	color: #112d4e;
 }
 
+.folder
+{
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
+}
+
 .underline:before
 {
 	content: "";
