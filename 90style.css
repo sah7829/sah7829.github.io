@@ -32,7 +32,9 @@ h3{
 marquee{
     background-color: #000;
     color: #fff;
+	position: relative;
     font-size: large;
+	z-index: 1;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
@@ -46,6 +48,11 @@ marquee{
 	position: absolute;
 	right: 10px;
 	bottom: 0px;
+}
+
+.noadultcontent
+{
+	position: relative;
 }
 
 .ad1
@@ -65,7 +72,7 @@ marquee{
 .ad3
 {
 	position: absolute;
-	bottom: 45%;
+	bottom: 38%;
 	right: 48%;
 }
 
@@ -96,7 +103,17 @@ marquee{
 	position: absolute;
 	right: 20%;
 	bottom: 30%;
+	animation: rotation 30s infinite linear;
 }
+
+@keyframes rotation {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(359deg);
+	}
+  }
 
 .finger
 {
@@ -109,7 +126,30 @@ marquee{
 
 @keyframes mover {
     0% { transform: translate(0, 0); }
-    100% { transform: translate(2px, -2px); }
+    100% { transform: translate(2px, 2px); }
+}
+
+.pizza 
+{
+	border-bottom:4px groove #EEE;
+	position:absolute;
+	z-index: -1;
+	bottom:0%;
+	left:26%;
+	min-height:9%;
+	width: 50%;
+	/* width:160px; */
+	background:url("Images/90s/zah.jpg");
+	color:black;
+	text-align:center;
+}
+
+.garfield
+{
+	position:absolute;
+	right:13%;
+	bottom:0%;
+	width: 29%;
 }
 
 .underline:before
